@@ -119,6 +119,7 @@ async function fetchBackgroundImage(weatherCondition) {
         console.error("Error fetching Unsplash image:", error);
     }
 }
+
 // Dark mode toggle
 darkModeToggleBtn.addEventListener("click", toggleDarkMode);
 
